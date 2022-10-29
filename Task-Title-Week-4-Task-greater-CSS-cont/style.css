@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.vehicle-container{
+  margin-top: 20px;
+  display: flex;
+  width: 700px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+h3{
+  color: white;
+  line-height: 1.5;
+  font-family:'Poppins';
+  font-size: 25px
+}
+p{
+  color: white;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-right: 12px;
+}
+button{
+  background: white;
+  border: none;
+  width: 120px;
+  padding: 10px;
+  border-radius:20px;
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.sedan button{
+  color: orange;
+}
+.suv button{
+  color: teal;
+}
+.luxury button{
+  color: green;
+}
+.sedan{
+  background-color: orange;
+  padding: 35px;
+}
+.suv{
+  background-color: teal;
+  padding: 35px;
+}
+.luxury{
+  background-color: green;
+  padding: 35px;
+}
+
+/*grid-tyle*/
+.grandparent{
+  width: 500px;
+  background-color: blueviolet;
+  height: 350px;
+  display: grid;
+  row-gap: 8px;
+}
+.parent1{
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  column-gap: 8px;
+}
+.child1{
+  background: red;
+}
+.child2{
+  background: yellow;
+}
+.parent2{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  row-gap: 10px;
+  column-gap: 8px;
+}
+.child3{
+  background: green;
+}
+.child4{
+  display: grid;
+  row-gap: 8px;
+  grid-template-rows: 1.6fr 2fr;
+}
+.child41{
+  background: skyblue;
+}
+.child42{
+  background: skyblue;
+}
